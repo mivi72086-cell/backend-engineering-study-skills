@@ -40,3 +40,10 @@ Ensure you have the following infrastructure tools installed locally:
 ### 🏃 Setup Commands
 To spin up the distributed architecture environment, execute the following commands in your terminal:
 
+```bash
+# 1. Start the distributed Apache Kafka cluster containers in detached mode
+docker-compose up -d
+
+# 2. Run the key-based parallel partition distributor stream
+cd 07-kafka-partitions-scale
+python partitioned_stream.py
