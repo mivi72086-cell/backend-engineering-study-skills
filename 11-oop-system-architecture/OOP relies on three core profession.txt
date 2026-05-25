@@ -1,0 +1,8 @@
+OOP relies on three core professional principles:
+
+
+Encapsulation: Hiding internal variables inside the object so outside code can't accidentally mess with them.
+
+Inheritance: Creating a generic parent blueprint (like User) and extending it to create specialized child blueprints (like PremiumUser or AdminUser) without rewriting code.
+
+Polymorphism: Allowing different objects to respond to the exact same command in their own unique way (e.g., both a User and an AdminUser can call .login(), but the admin gets a security alert triggered automatically).
